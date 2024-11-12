@@ -341,10 +341,6 @@ a {
 
 /*******************************/
 
-.blog .container .row {
-  flex-wrap: nowrap;
-}
-
 .blog-box {
   border: 1px solid #b3b3b3;
   border-radius: 5px;
@@ -388,6 +384,12 @@ a {
 .blog .container h5 a:hover {
   color: var(--main-color);
 }
+@media (max-width: 998px) {
+  .blog-name {
+    font-size: 10px;
+  }
+}
+
 
 /*******************************/
 
